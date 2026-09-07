@@ -1,0 +1,21 @@
+split,reasoning_type,count,pct
+train,lookup,5040,38.14
+train,arithmetic,3889,29.43
+train,multi-step,1654,12.52
+train,multi-span,1568,11.87
+train,comparison,759,5.74
+train,count,305,2.31
+dev,lookup,628,37.65
+dev,arithmetic,513,30.76
+dev,multi-span,206,12.35
+dev,multi-step,205,12.29
+dev,comparison,84,5.04
+dev,count,32,1.92
+test,unknown (test),1669,100.0
+all,lookup,5668,34.24
+all,arithmetic,4402,26.59
+all,multi-step,1859,11.23
+all,multi-span,1774,10.72
+all,unknown (test),1669,10.08
+all,comparison,843,5.09
+all,count,337,2.04
