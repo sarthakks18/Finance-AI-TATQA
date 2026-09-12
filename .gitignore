@@ -1,0 +1,6 @@
+﻿.env
+*.env
+api_key.txt
+__pycache__/
+.ipynb_checkpoints/
+baseline_checkpoint.json

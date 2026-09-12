@@ -1,0 +1,569 @@
+question_uid,question,answer_type,reasoning_type,scale,gold_answers,predicted,raw_response,em,f1,num_em,latency_s,prompt_tokens,cand_tokens,cost_usd,model
+f4142349-eb72-49eb-9a76-f3ccb1010cbc,In which year is the amount of total sales the largest?,span,comparison,,2019,2019,"To determine in which year the amount of total sales is the largest, we compare the total sales values for each year provided in the table:
+
+- **2017:** $1,107.7 million
+- **2018:** $1,202.9 million
+- **2019:** $1,496.5 million
+
+Comparing these values, the amount of total sales is largest in 2019 ($1,496.5 million).
+
+ANSWER: 2019",1.0,1.0,1.0,1.55,402,115,6.465e-05,gemini-flash-lite-latest
+86ae8d77-4dcd-4f82-baac-61c6a2551760,How is industry end market information presented?,span,lookup,,consistently with our internal management reporting and may be revised periodically as management deems necessary.,consistently with our internal management reporting,consistently with our internal management reporting,0.0,0.5714285714285715,0.0,1.32,536,7,4.23e-05,gemini-3.5-flash
+b1018041-1c58-47f2-94db-fa8df0a631cb,In which years was for the net sales by segment and industry end market calculated?,multi-span,multi-span,,2019 | 2018 | 2017,"2019, 2018, 2017","2019, 2018, 2017",1.0,1.0,1.0,0.81,556,16,4.65e-05,gemini-3.1-flash-lite
+d47306cf-e276-4836-a827-ebebdc47e078,What financial items are listed in the table?,multi-span,multi-span,,Defined contribution schemes | Defined benefit schemes | ,"Defined contribution schemes, Defined benefit schemes, Total amount charged to income statement (note 23)","Defined contribution schemes, Defined benefit schemes, Total amount charged to income statement (note 23)",1.0,1.0,0.0,0.92,1176,20,9.42e-05,gemini-flash-lite-latest
+5c7d8918-6083-4ac1-a0eb-137a114a7cd7,What was the net deferred tax asset before valuation allowance amount in 2019 and 2018 respectively?,multi-span,multi-span,thousand,"19,911 | 15,916","$19,911 thousand, $15,916 thousand","$19,911 thousand, $15,916 thousand",0.0,0.0,0.0,6.56,424,17,3.69e-05,gemini-3.5-flash
+55cba0fe-5e0a-45b5-af6b-97a6e77f81e2,What was the net deferred tax asset amount in 2019 and 2018 respectively?,multi-span,multi-span,thousand,795 | 772,"795, 772","795, 772",1.0,1.0,1.0,0.95,421,8,3.3975e-05,gemini-3.1-flash-lite
+ba6783f3-8207-419a-b407-3f688682caef,What is the ratio of IMFT’s total assets to total liabilities in 2019?,arithmetic,arithmetic,,2.93,2.93,"To find the ratio of IMFT's total assets to total liabilities in 2019, divide total assets by total liabilities for 2019 using the table: $2,664 / $909.
+$2,664 / $909 ≈ 2.9307
+ANSWER: 2.93",1.0,1.0,1.0,1.14,1301,77,0.00012067499999999999,gemini-flash-lite-latest
+78fc6d55-c20c-4f71-99fe-bc40a16e61d0,What is the change of IMFT’s total assets from 2018 to 2019?,arithmetic,arithmetic,,-361,-$361 million,"IMFT's total assets decreased from $3,025 million in 2018 to $2,664 million in 2019. 
+The change is calculated as: $2,664 million - $3,025 million = -$361 million.
+
+ANSWER: -$361 million",0.0,0.6666666666666666,0.0,4.1,1304,74,0.00011999999999999999,gemini-3.5-flash
+33bc3fd6-2d74-4b8b-924f-fefe65a638df,In which year were Acquisition and integration costs larger?,span,comparison,,2019,2019,"In 2019, Acquisition and integration costs were $27 million, while in 2018, these costs were $14 million. Comparing the two, $27 million is greater than $14 million.
+
+ANSWER: 2019",1.0,1.0,1.0,1.02,286,57,3.855e-05,gemini-3.1-flash-lite
+8f61e8be-18ee-4226-bb65-e1d1b4dfa8ec,How many assumptions are used by the company when using the Black-Scholes-Merton option pricing model?,count,count,,4,4,"Based on the Financial Table provided, the weighted-average input assumptions listed for the service-based stock options are:
+1. Expected life (in years)
+2. risk-free interest rate
+3. Volatility
+4. Dividend yield
+5. Weighted-average fair value per share (resulting fair value / valuation metric, with 4 specific input assumptions listed above it).
+
+Specifically looking at the table rows representing",1.0,1.0,1.0,1.16,771,123,9.472499999999998e-05,gemini-flash-lite-latest
+a81f1322-e74f-4e3c-a6cf-4b8d25d01cf5,"What is the average Selling, general and administrative?",arithmetic,arithmetic,million,399.33,$399.33 million,"To find the average Selling, general and administrative cost, we sum the values for 2019 ($453 million), 2018 ($361 million), and 2017 ($384 million) and divide by 3: ($453 + $361 + $384) / 3 = $399.33 million.
+
+ANSWER: $399.33 million",0.0,0.6666666666666666,0.0,2.59,408,95,5.91e-05,gemini-3.5-flash
+65ec782c-691e-45df-b541-caecb85154ff,What was the change in Capital redemption reserve in 2019 from 2018?,arithmetic,arithmetic,million,0.2,0.2m,"The Capital redemption reserve was £0.7m in 2019 and £0.5m in 2018. The change is calculated as £0.7m - £0.5m = £0.2m.
+
+ANSWER: 0.2m",0.0,0.0,0.0,0.93,541,60,5.8575e-05,gemini-3.1-flash-lite
+50e886f3-c590-42d9-a936-445229354eb9,Where should one look at to obtain additional information on the company’s notes payable and other borrowings?,span,lookup,,See Note 7 of Notes to Consolidated Financial Statements included elsewhere in this Annual report for additional information regarding our notes payable and other borrowings.,Note 7 of Notes to Consolidated Financial Statements included elsewhere in this Annual report,Note 7 of Notes to Consolidated Financial Statements included elsewhere in this Annual report,0.0,0.717948717948718,0.0,1.08,1622,15,0.00012614999999999998,gemini-flash-lite-latest
+2769fc54-ec8e-4969-9ae8-1041f4ec8ab9,Why did the working capital and total assets decrease in fiscal 2019?,multi-span,multi-span,,"Working capital and total assets decreased in fiscal 2019 primarily due to $36.1 billion of cash used for repurchases of our common stock during fiscal 2019 and also due to dividend payments, partially offset by the favorable impacts to our net current assets resulting from our fiscal 2019 net income. | In addition, our total assets were also affected in all periods presented by the repayments of notes payable and other borrowings","$36.1 billion of cash used for repurchases of our common stock during fiscal 2019, dividend payments","$36.1 billion of cash used for repurchases of our common stock during fiscal 2019, dividend payments",0.0,0.43750000000000006,0.0,2.23,1631,27,0.00013042499999999999,gemini-3.5-flash
+191c3926-7356-4ab8-a8f9-41e7b7c8a492,What were the total Assets as reported?,arithmetic,arithmetic,thousand,64509,CANNOT_ANSWER,"The table provides individual line items under the ""Assets"" section as reported ($19,373, $22,626, and $22,510), but does not provide a total sum for the Assets category.
+
+CANNOT_ANSWER",0.0,0.0,0.0,0.87,586,56,6.075e-05,gemini-3.1-flash-lite
+2ff93d2d-d0c9-4076-aa57-563d3340c4b8,What was the effective tax rate in 2019?,span,lookup,,13.0%,13.0%,13.0%,1.0,1.0,1.0,0.88,1014,5,7.754999999999999e-05,gemini-flash-lite-latest
+de3f1580-e1b6-4539-9e54-a92d8333b7d0,What was the net sales in APAC in 2017?,span,lookup,thousand,"288,764","$288,764","$288,764",1.0,1.0,0.0,1.87,818,8,6.375e-05,gemini-3.5-flash
+6cc73a99-0323-40d5-9d92-b285579b3482,What was the percentage change in gross profit between 2018 and 2019?,arithmetic,arithmetic,percent,-13.66,-13.66%,"The gross profit changed from $365,607 in 2018 to $315,652 in 2019, calculated as ((315,652 - 365,607) / 365,607) * 100.
+This results in a decrease of approximately 13.66%.
+
+ANSWER: -13.66%",1.0,1.0,1.0,1.87,461,96,6.3375e-05,gemini-3.1-flash-lite
+2067daa1-9905-456b-bcbf-42bc66b47259,What is the average net income for 2018 and 2019?,arithmetic,arithmetic,million,88.45,$88.45 Millions,"To find the average net income for 2018 and 2019, add the net income for April 27, 2019 ($106.4 million) and April 28, 2018 ($70.5 million), and divide by 2: ($106.4 + $70.5) / 2 = $176.9 / 2 = $88.45.
+
+ANSWER: $88.45 Millions",0.0,0.6666666666666666,0.0,1.15,373,110,6.0975000000000005e-05,gemini-flash-lite-latest
+4ec6ff4d-d8ef-4cdd-aeab-df75b41f5c01,What is the change (%) for order intake between 2018 and 2019?,span,lookup,percent,13.2,13.2,13.2,1.0,1.0,1.0,1.39,949,4,7.2375e-05,gemini-3.5-flash
+995ea3dc-1c2d-4400-8cc3-c54615197f40,What is the percentage difference in the number of PSUs granted between February 2016 and October 2018? ,arithmetic,arithmetic,percent,-15.01,15.01%,"The February 2016 grant was 547,000 shares and the October 2018 grant was 464,888 shares. The percentage difference is calculated as ((547,000 - 464,888) / 547,000) * 100.
+
+ANSWER: 15.01%",1.0,1.0,0.0,3.26,1062,88,0.00010605,gemini-3.1-flash-lite
+5dc7a9ae-acd0-4b54-9721-ff522aaef3f5,What was the total number of company employees in 2018?,arithmetic,arithmetic,,9336.36,"9,336.36","To find the total number of company employees in 2018, we reference the paragraph stating the reduction in force included approximately 11% of the workforce, or 1,027 employees. By dividing 1,027 by 0.11, we calculate the total number of employees.
+1,027 / 0.11 = 9,336.36
+ANSWER: 9,336.36",1.0,1.0,1.0,1.15,739,100,8.5425e-05,gemini-flash-lite-latest
+1814cf3d-030a-4dbd-8bd1-67c9129e0fe9,What are the respective values of the company's current state tax in 2018 and 2019?,multi-span,multi-span,,"423,209 | 428,501","423,209, 428,501","423,209, 428,501",0.0,0.0,0.0,3.4,365,16,3.2175e-05,gemini-3.5-flash
+03de2d3b-2e3d-425f-8f59-7dfca536488e,What is the company's average current state tax expense between 2018 and 2019?,arithmetic,multi-step,,425855,"425,855","To calculate the company's average current state tax expense between 2018 and 2019:
+
+1. Identify the Current: State tax expense for 2019 from the table: $428,501.
+2. Identify the Current: State tax expense for 2018 from the table: $423,209.
+3. Calculate the sum of the two years: $428,501 + $423,209 = $851,710.
+4. Calculate the average by dividing the sum by 2: $851,710 / 2 = $425,855.
+
+ANSWER: 425",1.0,1.0,1.0,1.15,356,166,7.649999999999999e-05,gemini-3.1-flash-lite
+ef9d4839-5277-4614-bb73-f902fd8a38b6,What was the average Tax exempt interest income?,arithmetic,arithmetic,thousand,-168,$(168),"To find the average tax exempt interest income, we sum the values for the three fiscal years (-197, -101, and -206) and divide by 3: (-197 + (-101) + (-206)) / 3 = -504 / 3 = -168.
+ANSWER: $(168)",1.0,1.0,0.0,1.06,808,81,8.49e-05,gemini-flash-lite-latest
+7eba04ad-11a9-4486-b760-7c7c35eeca95,What are the respective expected volatility in 2017 and 2018?,multi-span,multi-span,,27.1% | 28.7%,"27.1%, 28.7%","27.1%, 28.7%",1.0,1.0,1.0,2.36,540,11,4.38e-05,gemini-3.5-flash
+d3f04ae4-ced9-446d-87b7-bb9d193e3603,What is the average expected volatility in 2017 and 2018?,arithmetic,arithmetic,percent,27.9,27.9%,"To find the average expected volatility for 2017 and 2018, take the sum of 27.1% and 28.7% and divide by 2.
+(27.1% + 28.7%) / 2 = 27.9%
+
+ANSWER: 27.9%",1.0,1.0,1.0,0.94,543,75,6.3225e-05,gemini-3.1-flash-lite
+81753c29-3174-463f-a579-91c17e0097c2,In which year was the net debt to EBITDA ratio larger?,span,comparison,,2019,2019,"Based on the provided financial table, the net debt to EBITDA ratio was 0.9 in 2019 and 0.8 in 2018. Comparing these values, 0.9 is larger than 0.8, meaning the ratio was larger in 2019.
+
+ANSWER: 2019",1.0,1.0,1.0,0.89,365,72,4.8975e-05,gemini-flash-lite-latest
+7b2b17a9-6409-45fb-907f-270832305974,What was the percentage change in net debt from 2018 to 2019?,arithmetic,arithmetic,percent,25.19,25.19%,"The percentage change is calculated as ((295.2 - 235.8) / 235.8) * 100.
+This results in a 25.19% increase from 2018 to 2019.
+
+ANSWER: 25.19%",1.0,1.0,1.0,11.71,394,70,5.0549999999999995e-05,gemini-3.1-flash-lite
+3cdaadc1-da88-4b97-9863-a2133f4da174,In which years is the disaggregation of revenue from contracts with customers by delivery location provided?,multi-span,multi-span,,2019 | 2018 | 2017,"2019, 2018, 2017","2019, 2018, 2017",1.0,1.0,1.0,0.75,645,16,5.3175e-05,gemini-3.1-flash-lite
+793f8643-9944-42b4-a703-1a054ea88aa7,"In which period was Total interest expense, net presented in the consolidated statements of income in which the effects of cash flow hedges are recorded less than 140 million?",multi-span,comparison,,2020 | 2018,"January 3, 2020 and December 28, 2018","To determine in which period the total interest expense, net presented in the consolidated statements of income in which the effects of cash flow hedges are recorded was less than $140 million, we examine the table provided:
+
+- **January 3, 2020:** $133 million (which is less than $140 million)
+- **December 28, 2018:** $138 million (which is less than $140 million)
+- **December 29, 2017:** $140 mi",1.0,1.0,1.0,1.23,806,201,0.00012075,gemini-flash-lite-latest
+0971c47c-02e3-496c-b492-23caa00bf4d7,What is the change in the projected benefit obligation of the benefit plans recognized as?,span,lookup,,"part of the net actuarial (gain) loss and is included in accumulated other comprehensive loss, a portion of which is subject to amortization over the remaining estimated life of plan participants",part of the net actuarial (gain) loss,part of the net actuarial (gain) loss,0.0,0.3684210526315789,0.0,1.93,546,10,4.394999999999999e-05,gemini-3.5-flash
+a5f0fd48-88aa-469d-9420-9d94236cc967,In which years was the revised mortality tables and projection scales released by the Society of Actuaries adopted?,multi-span,multi-span,,2019 | 2018 | 2017,"2019, 2018, 2017","2019, 2018, 2017",1.0,1.0,1.0,0.84,562,16,4.695e-05,gemini-3.1-flash-lite
+eb1ecc18-e3d3-4dd6-a689-546998eb2784,What is the percentage change in interest cost in 2019 from 2018?,arithmetic,arithmetic,percent,11.22,11.22%,"To find the percentage change in interest cost in 2019 from 2018, we use the interest costs for 2019 ($436 million) and 2018 ($392 million).
+Calculation: $((436 - 392) / 392) \times 100 = (44 / 392) \times 100 \approx 11.224\%$.
+
+ANSWER: 11.22%",1.0,1.0,1.0,0.9,566,112,7.605e-05,gemini-flash-lite-latest
+b4aec8a2-4b31-46c9-acef-5930ecaaeade,What was the Total net deferred tax assets in 2019?,span,lookup,thousand,"14,158","$14,158","$14,158",1.0,1.0,0.0,1.92,718,7,5.5950000000000005e-05,gemini-3.5-flash
+63b1c0cb-a00b-4f8a-843e-6b0795ef8cef,Why are performance measures not attached to sign-on and retention rights?,span,lookup,,"due to the objective of retaining key talent and vest subject to the executive remaining employed by the Group, generally for two or more years.",due to the objective of retaining key talent,due to the objective of retaining key talent,0.0,0.48484848484848486,0.0,1.01,490,8,3.9149999999999996e-05,gemini-3.1-flash-lite
+cf30adbb-c986-4b67-aa14-d0021d7a8f61,What was the legal reserve amount in 2019?,span,lookup,,"$963,947","$963,947","$963,947",1.0,1.0,0.0,0.81,453,8,3.6374999999999996e-05,gemini-flash-lite-latest
+a8d02db2-d1ef-43e6-9207-8435b4ee609e,What was the cash dividend per share in 2019?,span,lookup,,$0.75,$0.75,$0.75,1.0,1.0,0.0,1.63,454,5,3.555e-05,gemini-3.5-flash
+004b1595-0b63-4e9b-bbea-04da5182e510,What are the components of Continuing Operations?,multi-span,multi-span,,Operating revenue | Gross profit | EBITDA | EBIT | NPAT,"Operating revenue, Gross profit, EBITDA, EBIT, NPAT","Operating revenue, Gross profit, EBITDA, EBIT, NPAT",1.0,1.0,0.0,0.74,876,12,6.93e-05,gemini-3.1-flash-lite
+eec369e8-5d50-4bec-91a5-5037f73a12d6,What were the principal activities during the financial year within the Group?,span,lookup,,"health, life and car insurance policy sales, mortgage brokerage, energy, broadband and financial referral services","health, life and car insurance policy sales, mortgage brokerage, energy, broadband and financial referral services","health, life and car insurance policy sales, mortgage brokerage, energy, broadband and financial referral services",1.0,1.0,0.0,1.12,869,19,7.0875e-05,gemini-flash-lite-latest
+de9f1444-72fd-475d-a1d1-f883da337c99,What do the purchase obligations consist of?,span,lookup,,"significant contractual obligations either on an annual basis or over multi-year periods related to our outsourcing activities or other material commitments, including vendor-consigned inventories","significant contractual obligations either on an annual basis or over multi-year periods related to our outsourcing activities or other material commitments, including vendor-consigned inventories","significant contractual obligations either on an annual basis or over multi-year periods related to our outsourcing activities or other material commitments, including vendor-consigned inventories",1.0,1.0,0.0,1.79,2788,29,0.00021779999999999998,gemini-3.5-flash
+149b0f1a-231a-452b-a894-442970f404b2,What is the  one-time transition tax on accumulated unrepatriated foreign earnings during the December 2017 quarter?,span,lookup,,$991 million,$991 million,$991 million,1.0,1.0,0.0,1.61,2806,5,0.00021195,gemini-3.1-flash-lite
+5db92b3b-23c9-498d-ba92-3238fb54f1ee,What is Tax Fees?,span,lookup,,"Tax Fees include fees billed for tax compliance services, including the preparation of original and amended tax returns and claims for refund; tax consultations, such as assistance in connection with tax audits and expatriate tax compliance.",—,—,0.0,0.0,0.0,0.79,467,1,3.5325e-05,gemini-flash-lite-latest
+467722ba-4605-4155-86c5-5b1392095649,What is the value of the total prepaid expenses and other for 2019 and 2018 respectively?,multi-span,multi-span,thousand,"$2,496 | $1,947","$2,496 thousand, $1,947 thousand","$2,496 thousand, $1,947 thousand",0.0,0.0,0.0,3.92,246,14,2.2649999999999998e-05,gemini-3.5-flash
+5ba983d9-006e-473e-956f-5344532881ae,"In which year was Maintenance less than15,000 thousands?",span,comparison,,2018,2018,"Based on the provided financial table:
+
+*   For the fiscal year ended July 31, 2019, Maintenance was $16,499 thousand.
+*   For the fiscal year ended July 31, 2018, Maintenance was $14,783 thousand.
+
+Comparing these values, 14,783 thousand is less than 15,000 thousand.
+
+ANSWER: 2018",1.0,1.0,1.0,1.05,916,100,9.87e-05,gemini-3.1-flash-lite
+e35d0769-f5cb-49ae-86f7-a06fc6d64068,Over what duration will the unrecognized compensation cost related to non-vested RSUs be recognized?,span,lookup,,2.5 years,approximately 2.5 years,approximately 2.5 years,0.0,0.8,0.0,0.73,435,6,3.4425e-05,gemini-flash-lite-latest
+2e3d4fe2-96f3-4ad9-b23f-1c590897b6e5,What is the increase / (decrease) in the RSUs Granted from 2018 to 2019?,arithmetic,arithmetic,million,91,$91 million,"To find the increase in RSUs Granted from 2018 to 2019, we subtract the 2018 value ($583 million) from the 2019 value ($674 million).
+$674 million - $583 million = $91 million.
+
+ANSWER: $91 million",0.0,0.6666666666666666,0.0,2.56,457,75,5.6775e-05,gemini-3.5-flash
+ac5f7415-c83b-4a65-9cab-964727d9e0ce,What are Qdoba evaluation consulting costs primarily related to?,span,lookup,,Third party advisory services and retention compensation,third party advisory services and retention compensation,third party advisory services and retention compensation,1.0,1.0,0.0,0.69,424,7,3.39e-05,gemini-3.1-flash-lite
+f5c522f7-bc60-43ba-953e-f2845c8cd1b0,What were the balances net of dividends received during fiscal 2019 and fiscal 2018 respectively?,multi-span,multi-span,,$25 million | $29 million,"$19 million, $26 million","$19 million, $26 million",0.0,0.5,0.0,0.92,706,9,5.564999999999999e-05,gemini-flash-lite-latest
+568f039b-5753-4e91-b3aa-17cbcbe9b259,What was the change in the Pre-contract costs from 2018 to 2020?,arithmetic,arithmetic,million,-35,$35 million,"The Pre-contract costs were $41 million on December 28, 2018, and $6 million on January 3, 2020. The change is $6 million minus $41 million, resulting in a decrease of $35 million.
+
+ANSWER: $35 million",0.0,0.6666666666666666,0.0,11.49,708,66,7.290000000000001e-05,gemini-3.1-flash-lite
+afab19a4-a914-4a88-bc9d-699662b7fd3d,What is the average value of computer equipment and software in both 2018 and 2019?,arithmetic,arithmetic,,14373.5,"14,373.5","The average value is calculated by adding the 2018 value (14,058) and the 2019 value (14,689) and dividing by 2.
+(14,058 + 14,689) / 2 = 14,373.5
+
+ANSWER: 14,373.5",1.0,1.0,1.0,3.2,696,86,7.8e-05,gemini-3.1-flash-lite
+ee8d24fe-3e25-42c3-824d-01ee134e7d2c,When is the quantitative impairment test necessary?,span,lookup,,"when either Autodesk does not use the optional assessment or, as a result of the optional assessment, it is not more likely than not that the fair value of the reporting unit is greater than its carrying value.","The quantitative impairment test is necessary when either Autodesk does not use the optional assessment or, as a result of the optional assessment, it is not more likely than not that the fair value of the reporting unit is greater than its carrying value.","The quantitative impairment test is necessary when either Autodesk does not use the optional assessment or, as a result of the optional assessment, it is not more likely than not that the fair value of the reporting unit is greater than its carrying value.",0.0,0.9268292682926829,0.0,1.25,853,47,7.8075e-05,gemini-flash-lite-latest
+ffae65ab-7123-4c57-88a8-3bfec53e782a,What was the change in Autodesk's goodwill from 2018 to 2019?,arithmetic,arithmetic,million,830.6,$830.6 million,"To find the change in Autodesk's goodwill from 2018 to 2019, we subtract the ending goodwill of January 31, 2018 ($1,620.2 million) from the ending goodwill of January 31, 2019 ($2,450.8 million).
+
+$2,450.8 million - $1,620.2 million = $830.6 million
+
+ANSWER: $830.6 million",0.0,0.6666666666666666,0.0,5.66,882,111,9.944999999999999e-05,gemini-3.5-flash
+abfc722d-6235-4ed2-81b3-90b25b3cd93c,In which year were Additions larger?,span,comparison,,2019,2019,"In 2019, the additions were £3.1m, and in 2018, the additions were £2.4m. Comparing these values, £3.1m is larger than £2.4m.
+
+ANSWER: 2019",1.0,1.0,1.0,0.95,249,59,3.6375e-05,gemini-3.1-flash-lite
+14381fab-36ac-482b-9f77-2c78f3f34ffb,What was the change in Additions in 2019 from 2018?,arithmetic,arithmetic,million,0.7,£0.7m,"To find the change in Additions in 2019 from 2018, subtract the 2018 additions from the 2019 additions: £3.1m - £2.4m = £0.7m.
+
+ANSWER: £0.7m",0.0,0.0,0.0,0.9,281,63,3.9974999999999996e-05,gemini-flash-lite-latest
+b9c6abaf-9cf8-4bd1-a01e-c6967767d2b4,What is the sum of amounts billed due on U.S. federal government contracts in 2018 and 2019?,arithmetic,arithmetic,million,140.8,$140.8 million,"The amounts billed for U.S. federal government contracts are $80.5 million (2018) and $60.3 million (2019). The sum is 80.5 + 60.3 = 140.8.
+
+ANSWER: $140.8 million",0.0,0.6666666666666666,0.0,11.33,549,69,6.1875e-05,gemini-3.1-flash-lite
+087ed2c0-baa8-41f1-8e24-aa6d8156932f,What is the plan for the losing investments?,span,lookup,,we generally hold such securities until we recover our cost basis,we generally hold such securities until we recover our cost basis.,we generally hold such securities until we recover our cost basis.,1.0,1.0,0.0,0.94,619,12,5.0024999999999996e-05,gemini-3.1-flash-lite
+b2fac184-b14e-4f25-88d5-15dc705954c4,What is the difference between the total fair value amount and total amortized amount at 2018? ,arithmetic,multi-step,thousand,7979,"$7,979","To find the difference between the total fair value amount and the total amortized cost amount as of December 31, 2018, we locate the ""Total"" row for December 31, 2018 in the financial table:
+
+1. Total Amortized Cost as of December 31, 2018 = $171,021 (in thousands)
+2. Total Fair Value as of December 31, 2018 = $179,000 (in thousands)
+
+Next, we calculate the difference between the total fair value",1.0,1.0,0.0,1.15,638,174,0.00010004999999999999,gemini-flash-lite-latest
+426e47ae-aff7-43e2-81be-0bb951b0def1,What was the percentage change in Acquisition and integration costs in 2019 from 2018?,arithmetic,arithmetic,percent,112.5,112.5%,"The percentage change is calculated as ((17 - 8) / 8) * 100, which equals 112.5%.
+
+ANSWER: 112.5%",1.0,1.0,1.0,13.95,362,42,3.975e-05,gemini-3.1-flash-lite
+5835d53d-8b8c-42eb-9b0b-8dd44502c222,What is the Revenue from UK in 2019?,span,lookup,million,83.2,83.2,83.2,1.0,1.0,1.0,1.56,382,4,2.9849999999999997e-05,gemini-3.1-flash-lite
+44f28f4e-ce84-4300-b8d1-1644dda31933,What was the percentage change in revenue from external customers from UK in 2019 from 2018?,arithmetic,arithmetic,percent,13.2,13.2%,"To find the percentage change in revenue from the UK:
+Percentage change = ((83.2 - 73.5) / 73.5) * 100 = (9.7 / 73.5) * 100 = 13.197...%
+ANSWER: 13.2%",1.0,1.0,1.0,1.01,409,75,5.3175000000000005e-05,gemini-flash-lite-latest
+f5eb2ada-9a3c-4bbd-b96d-a83844cef935,What was the average leasehold improvements for 2018 and 2019?,arithmetic,arithmetic,thousand,6900,"$6,900 thousand","The leasehold improvements were $6,981 thousand in 2019 and $6,819 thousand in 2018. The average is calculated as ($6,981 + $6,819) / 2 = $6,900.
+
+ANSWER: $6,900 thousand",0.0,0.6666666666666666,0.0,14.14,505,73,5.9774999999999996e-05,gemini-3.1-flash-lite
+8d6a9357-86ed-45d4-9e08-2bb06cd8fe91,In which year was accrued income taxes larger?,span,comparison,,2019,2019,"In 2019, accrued income taxes were $4.2 million, and in 2018, accrued income taxes were $1.4 million. Comparing the two, $4.2 million is larger than $1.4 million.
+
+ANSWER: 2019",1.0,1.0,1.0,1.44,337,61,4.3575e-05,gemini-3.1-flash-lite
+51ba81d0-3a0f-47a2-9ef2-667303127449,What was the deferred tax assets for Inventory in 2019?,span,lookup,thousand,"$7,144","$7,144","$7,144",1.0,1.0,0.0,0.9,1341,6,0.00010237500000000001,gemini-flash-lite-latest
+b194279c-16e5-4a17-9733-c8babb6e8281,What is the average Excess tax benefits from stock-based compensation in 2018 and 2017?,arithmetic,arithmetic,million,-10.5,$(10.5) million,"The excess tax benefits from stock-based compensation were $(9) million in 2018 and $(12) million in 2017. The average is ((-9) + (-12)) / 2 = -10.5.
+
+ANSWER: $(10.5) million",0.0,0.6666666666666666,0.0,12.94,757,65,7.6275e-05,gemini-3.1-flash-lite
+a4be9eab-ad03-4d67-9136-62d7cbe40e1e,What is the net percentage difference in net sales between 2017 and 2019?,arithmetic,arithmetic,percent,4.14,4.14%,"To calculate the percentage change from 2017 to 2019, take the difference between the 2019 Net sales ($3,063,117) and 2017 Net sales ($2,941,324), divide by the 2017 value, and multiply by 100.
+($3,063,117 - $2,941,324) / $2,941,324 = 0.041405...
+
+ANSWER: 4.14%",1.0,1.0,1.0,2.13,826,132,0.00010155,gemini-3.1-flash-lite
+611e2914-6d3f-4e81-a9f0-f210d5005b60,What is Trade receivables?,span,lookup,,"amounts due from customers for rental income, goods sold or services performed in the ordinary course of business.","Amounts due from customers for rental income, goods sold or services performed in the ordinary course of business.","Amounts due from customers for rental income, goods sold or services performed in the ordinary course of business.",1.0,1.0,0.0,0.82,566,20,4.845e-05,gemini-flash-lite-latest
+8d0671c8-7300-4ea8-b425-2d39a11ca3c8,What is represented by allowance for expected credit losses?,span,lookup,,an estimate of receivables that are not considered to be recoverable.,an estimate of receivables that are not considered to be recoverable,an estimate of receivables that are not considered to be recoverable,1.0,1.0,0.0,11.14,571,11,4.6124999999999996e-05,gemini-3.1-flash-lite
+0b7463b3-ed9e-47a0-b838-b26e0ab886eb,What is the change in Allowance for expected credit losses from 2018 to 2019?,arithmetic,arithmetic,thousand,112,-112 $'000,"The allowance for expected credit losses was $(23,000) in 2018 and $(135,000) in 2019. The change is calculated as (-135) - (-23) = -112.
+
+ANSWER: -112 $'000",0.0,0.6666666666666666,0.0,1.04,599,70,6.592499999999999e-05,gemini-3.1-flash-lite
+47ddef52-b3ac-40bf-9a23-e2edf57d5601,What is the symbol of the company's common stock that is listed on the Nasdaq Global Market?,span,lookup,,LWAY,LWAY,LWAY,1.0,1.0,0.0,0.77,353,2,2.7074999999999997e-05,gemini-flash-lite-latest
+5beff07b-d9e0-4592-b11a-47bc4bbb5e07,What is the average quarterly low price in 2018?,arithmetic,arithmetic,,3.83,$3.83,"To calculate the average quarterly low price for 2018, the four low prices ($5.99, $4.79, $2.66, $1.88) are summed ($15.32) and divided by 4.
+
+ANSWER: $3.83",1.0,1.0,0.0,13.92,362,65,4.6649999999999996e-05,gemini-3.1-flash-lite
+02c88105-1688-4b83-b531-6456151dbe69,What do the audit fees comprise of?,span,lookup,,"fees for professional services performed by Deloitte for the audit of our annual financial statements and the review of our quarterly financial statements, as well as other services provided by Deloitte in connection with statutory and regulatory filings or engagements","fees for professional services performed by Deloitte for the audit of our annual financial statements and the review of our quarterly financial statements, as well as other services provided by Deloitte in connection with statutory and regulatory filings or engagements.","fees for professional services performed by Deloitte for the audit of our annual financial statements and the review of our quarterly financial statements, as well as other services provided by Deloitte in connection with statutory and regulatory filings or engagements.",1.0,1.0,0.0,1.25,474,42,4.815e-05,gemini-3.1-flash-lite
+c34555c9-39a6-4505-bc7e-fcabfa3ae6cd,"What is the net total underlying rights and other for both finite-lived and indefinite-lived intangible assets as of June 30, 2019?",arithmetic,arithmetic,million,16.4,$16.4 million,"To find the net total underlying rights and other for both finite-lived and indefinite-lived intangible assets as of June 30, 2019, add the net amount of finite-lived underlying rights and other ($1.9 million) and the net amount of indefinite-lived underlying rights and other ($14.5 million).
+$1.9 million + $14.5 million = $16.4 million.
+ANSWER: $16.4 million",0.0,0.6666666666666666,0.0,0.94,745,100,8.5875e-05,gemini-flash-lite-latest
+a0bca80b-e742-4b34-8adc-6f408daba014,"In which year was revenue less than 600,000 thousands?",span,comparison,,2018,2018,"Based on the financial table provided:
+
+The revenue for 2019 was 601,256 (in thousands of U.S. dollars).
+The revenue for 2018 was 510,762 (in thousands of U.S. dollars).
+
+Since 510,762 is less than 600,000, the year in which revenue was less than 600,000 thousands is 2018.
+
+ANSWER: 2018",1.0,1.0,1.0,12.82,1759,117,0.000167025,gemini-3.1-flash-lite
+1ed5102e-1252-403b-9ebf-8370619e9300,Which year was the ship management creditors lower?,span,comparison,,2018,2018,"In 2018, the ship management creditors were 268. In 2019, the ship management creditors were 328. Comparing these values, 268 is lower than 328.
+
+ANSWER: 2018",1.0,1.0,1.0,3.47,326,58,4.185e-05,gemini-3.1-flash-lite
+622913bc-d6eb-4cb7-838a-322f57f5792d,What is the Combustion of fuel and operation of facilities (Scope 1) in FY19?,span,lookup,,"59,495","59,495","59,495",1.0,1.0,1.0,0.98,698,6,5.415e-05,gemini-flash-lite-latest
+25c87384-03af-40a7-85e3-e26341bf93cf,How much is the change in additions of financial assets between 2018 year end and 2019 year end?,arithmetic,multi-step,million,-16189,"-16,189","To determine the change in additions of financial assets between 2018 and 2019, we refer to the provided ""Financial Table"":
+
+1.  **Identify the Additions for 2019:**
+    According to the table, the value for ""Additions (Note (a))"" in 2019 is RMB 44,618 million.
+
+2.  **Identify the Additions for 2018:**
+    According to the table, the value for ""Additions (Note (a))"" in 2018 is RMB 60,807 million.
+",1.0,1.0,1.0,14.36,782,238,0.00013005,gemini-3.1-flash-lite
+428f0639-82af-4a18-a169-b531c63f8fce,What was the average USD-INR exchange rate in FY 2019?,span,lookup,,`70.07,70.07,70.07,1.0,1.0,0.0,2.73,540,5,4.2000000000000004e-05,gemini-3.1-flash-lite
+3a467fa9-64d9-4214-9f5e-0e7a101efd57,What is the average USD-EUR exchange rate in FY 2019?,arithmetic,arithmetic,,0.87,CANNOT_ANSWER,"Based on the provided context, there is no mention of the average USD-EUR exchange rate for FY 2019. The table provides USD and EUR averages against the rupee (`70.07` for USD and `80.82` for EUR in FY 2019), but no direct USD-EUR exchange rate.
+
+ANSWER: CANNOT_ANSWER",0.0,0.0,0.0,0.94,555,79,6.5325e-05,gemini-flash-lite-latest
+732f6dc3-2572-4301-9c17-05e94f84ba8d,What is the amount of financial guarantees in respect of credit card facilities and office leases in 2019?,span,lookup,,"US$261,518","US$261,518","US$261,518",1.0,1.0,0.0,11.25,552,9,4.4099999999999995e-05,gemini-3.1-flash-lite
+9f7000b0-e7b7-48b2-bcc6-8f77209894f2,What is the current ratio in 2019?,arithmetic,arithmetic,,0.78,0.7828,"The current ratio is calculated by dividing total current assets (121,041) by total current liabilities (154,619) for the year 2019.
+121,041 / 154,619 = 0.7828
+
+ANSWER: 0.7828",0.0,0.0,1.0,1.11,556,76,6.45e-05,gemini-3.1-flash-lite
+3004c346-3455-43b3-80a6-6c77b3f0cda9,Which years does the table provide information for share count and par value data related to shareholders' equity?,multi-span,multi-span,,2019 | 2018 | 2017,CANNOT_ANSWER,CANNOT_ANSWER,0.0,0.0,0.0,0.67,670,4,5.1450000000000004e-05,gemini-flash-lite-latest
+cd0f4634-ee4a-4344-b660-2662b40cf3c7,How much did North America expenses decrease by from 2018 to 2019?,span,lookup,,$2.2 million,$2.2 million,$2.2 million,1.0,1.0,0.0,13.17,363,5,2.8724999999999997e-05,gemini-3.1-flash-lite
+e172ba38-34fa-477b-b535-bac8d65756fb,What is the percentage change in revenues from 2018 to 2019?,arithmetic,arithmetic,percent,1.05,1.05%,"To calculate the percentage change, subtract the 2018 revenue ($67,314) from the 2019 revenue ($68,024), divide by the 2018 revenue, and multiply by 100.
+($68,024 - $67,314) / $67,314 = 710 / 67,314 ≈ 0.0105477
+
+ANSWER: 1.05%",1.0,1.0,1.0,1.83,377,114,6.2475e-05,gemini-3.1-flash-lite
+1b8427b0-516c-4fea-b142-3e419a447f89,What was the amount of Finished Goods in 2019?,span,lookup,thousand,"9,447","$9,447","$9,447",1.0,1.0,0.0,0.95,293,6,2.3775e-05,gemini-flash-lite-latest
+716a0054-4177-43f6-b320-8de375eb3642,What was the average Expected term (years) for 2017-2019?,arithmetic,arithmetic,,4.77,4.7667 years,"To calculate the average expected term for 2017-2019, sum the values (3.9 + 3.4 + 7.0 = 14.3) and divide by the three years (14.3 / 3).
+
+ANSWER: 4.7667 years",0.0,0.0,0.0,11.59,725,68,7.4775e-05,gemini-3.1-flash-lite
+2d2c69eb-ded0-455a-8ef8-3122421ff731,What were the total definite-lived intangible assets?,span,lookup,million,492,$492,$492,1.0,1.0,0.0,0.74,369,4,2.8875e-05,gemini-3.1-flash-lite
+3b3d21ab-f76f-4ae3-ae00-cecf04e0b499,"What is the difference in the low prices between September 30, 2018 and July 8, 2018?",arithmetic,arithmetic,,2.64,$2.64,"To find the difference, we subtract the low price for July 8, 2018 ($79.23) from the low price for September 30, 2018 ($81.87):
+$81.87 - $79.23 = $2.64
+
+ANSWER: $2.64",1.0,1.0,0.0,0.96,594,77,6.764999999999999e-05,gemini-flash-lite-latest
+6c9d393a-c3d5-496f-a9d1-717fe1878c68,"What is the average Research, development and engineering expense for December 31, 2018 and 2019?",arithmetic,arithmetic,,5631086,"$5,631,086","The Research, development and engineering expense was $7,496,012 in 2019 and $3,766,160 in 2018. The average is calculated as ($7,496,012 + $3,766,160) / 2 = $5,631,086.
+
+ANSWER: $5,631,086",1.0,1.0,0.0,12.71,609,97,7.4775e-05,gemini-3.1-flash-lite
+86ac3307-2dfa-42cd-8d08-609454521c25,What was the Total operating expense in 2019 and 2018?,multi-span,multi-span,,"$31,867,361 | $18,560,365","$31,867,361, $18,560,365","$31,867,361, $18,560,365",0.0,0.0,0.0,2.07,597,23,5.1674999999999996e-05,gemini-3.1-flash-lite
+a2d7d0c0-0939-4563-95db-e93199c38e13,What is the number of stores under Dan Murphy's store network in F19?,span,lookup,,230,230,230,1.0,1.0,1.0,0.74,1181,3,8.947499999999999e-05,gemini-flash-lite-latest
+c91ad938-6ad1-4481-8f6b-43ccd2f69926,What is the nominal difference for ROFE between F19 and F18?,arithmetic,arithmetic,percent,1.9,1.9%,"F19 ROFE is 15.2% and F18 ROFE is 17.1%. The difference is 17.1% - 15.2% = 1.9%.
+
+ANSWER: 1.9%",1.0,1.0,1.0,13.26,1195,55,0.00010612499999999999,gemini-3.1-flash-lite
+efb9abeb-ad8a-4558-9695-6d1054957e1b,What is the total income from continuing operations between 2017 to 2019?,arithmetic,multi-step,million,174.5,174.5,"To calculate the total income from continuing operations between 2017 and 2019, we refer to the ""Total"" row provided in the Financial Table for each respective year:
+
+1.  **Identify the values:**
+    *   2019 Total: $66.1 million
+    *   2018 Total: $62.9 million
+    *   2017 Total: $45.5 million
+
+2.  **Perform the calculation:**
+    *   $66.1 + $62.9 + $45.5 = $174.5
+
+According to paragraph 11, t",1.0,1.0,1.0,1.14,265,175,7.2375e-05,gemini-3.1-flash-lite
+446acbfa-24f4-4d12-9d96-2a74ea3896a7,How much was the actual and constant percentage change in interest expense?,multi-span,multi-span,,3% | 3%,"3%, 3%","3%, 3%",1.0,1.0,1.0,0.76,312,5,2.49e-05,gemini-flash-lite-latest
+31c10084-aaf6-440d-8e51-4852e0de8b43,What are the respective proportion of cost of revenue as a percentage of revenue in 2017 and 2018?,multi-span,multi-span,,55% | 50%,"55%, 50%","55%, 50%",1.0,1.0,1.0,11.24,499,7,3.9525e-05,gemini-3.1-flash-lite
+c382bfb1-afee-45c2-a611-44d0de58955d,What is the total proportion of cost of revenue as a percentage of revenue in 2017 and 2018?,arithmetic,multi-step,percent,105,105%,"To determine the total proportion of cost of revenue as a percentage of revenue in 2017 and 2018, we refer to the provided ""Financial Table"":
+
+1.  Identify the ""Cost of revenue"" percentage for the fiscal year 2017 from the table: 55%.
+2.  Identify the ""Cost of revenue"" percentage for the fiscal year 2018 from the table: 50%.
+3.  Calculate the total proportion by adding these two values together: 5",1.0,1.0,1.0,1.25,492,151,8.219999999999999e-05,gemini-3.1-flash-lite
+35d7d375-6fb6-4bc0-a323-41735b5ceb3e,What does the cost of products revenue comprise of?,span,lookup,,cost of third-party manufacturing services and cost of inventory for the hardware component,cost of third-party manufacturing services and cost of inventory for the hardware component of our products,cost of third-party manufacturing services and cost of inventory for the hardware component of our products,0.0,0.896551724137931,0.0,1.37,417,18,3.6675e-05,gemini-flash-lite-latest
+a1fb1d57-243c-49e0-84ee-43d969cd41b0,What was the domestic-state tax credit carryforwards as a ratio of domestic-federal tax credit carryforwards?,arithmetic,arithmetic,percent,0.08,0.0833,"The domestic-state tax credit carryforward is $3,313 and the domestic-federal tax credit carryforward is $39,784. Dividing 3,313 by 39,784 results in approximately 0.0833.
+
+ANSWER: 0.0833",0.0,0.0,1.0,11.17,375,69,4.8824999999999994e-05,gemini-3.1-flash-lite
+b5ede057-3e98-4851-a1e1-1774c52cd908,What is the average salaries and fees between 2018 and 2019?,arithmetic,arithmetic,million,4,4 €m,"The salaries and fees for 2018 were €4 million and for 2019 were €4 million. The average is calculated as (€4 million + €4 million) / 2 = €4 million.
+
+ANSWER: 4 €m",0.0,0.6666666666666666,0.0,0.86,356,54,4.29e-05,gemini-3.1-flash-lite
+d5656a8c-6ef7-4e56-a3d4-8e3dc2bd5bed,What was the percentage change in total emissions?,arithmetic,arithmetic,percent,-5.93,-6.14%,"To find the percentage change in total emissions, we use the total emissions for 2018 (5,087.6 Tonnes of CO2e) and 2019 (4,785.7 Tonnes of CO2e) from the table, or the percentage drop stated in the text. As stated in the text, total Scope 1 and 2 emissions dropped by 6.14 per cent from 2018.
+
+ANSWER: -6.14%",0.0,0.0,1.0,1.38,505,108,7.0275e-05,gemini-flash-lite-latest
+1a91e6e8-80e5-4870-a106-90327a839e4a,How much net cash was used for financing activities in 2018?,span,lookup,million,"$(9,982)","$(9,982)","$(9,982)",1.0,1.0,0.0,11.18,717,7,5.5875e-05,gemini-3.1-flash-lite
+e9493771-ab8c-463a-9e85-31efb748bde8,What is the discount rate in 2019?,span,lookup,percent,2.9,2.9,2.9,1.0,1.0,1.0,0.8,426,3,3.285e-05,gemini-3.1-flash-lite
+c4399b78-eca0-48d0-b479-6b7d3c6662cf,What was the percentage of sales represented by operating expenses in 2019?,span,lookup,percent,33.1,33.1 %,33.1 %,1.0,1.0,1.0,1.03,404,5,3.18e-05,gemini-flash-lite-latest
+bbb9ab37-568a-4bab-9b95-cb3c43c5baa1,Which years does the table show?,multi-span,multi-span,,2019 | 2018,"December 31, 2019, December 31, 2018","December 31, 2019, December 31, 2018",1.0,1.0,1.0,11.49,377,21,3.4575e-05,gemini-3.1-flash-lite
+657a527d-01ff-4fac-9c40-ca3003f9a02e,"What is the Net income for fiscal years 2019, 2018 and 2017 respectively?",multi-span,multi-span,thousand,"$24,193 | $20,402 | $14,366","$24,193, $20,402, $14,366","$24,193, $20,402, $14,366",0.0,0.0,0.0,0.74,996,23,8.16e-05,gemini-3.1-flash-lite
+735866f2-3a3c-4b2d-822a-4a9314138469,What is the primary reason for operating income increase?,span,lookup,,"sales of our identity and information protection products, partially offset by higher related cost of sales and operating expenses",sales of our identity and information protection products,sales of our identity and information protection products,0.0,0.5925925925925926,0.0,1.19,386,8,3.1349999999999996e-05,gemini-flash-lite-latest
+8cf06f37-dccd-4b16-8f75-5359a9a55d93,What was the percentage change in the average life expectancy for a male member aged 65 in 2019 from 2018?,arithmetic,arithmetic,percent,-0.57,-0.57%,"To calculate the percentage change, subtract the 2018 value (87.3) from the 2019 value (86.8), divide by the 2018 value, and multiply by 100: ((86.8 - 87.3) / 87.3) * 100 = -0.5727...%
+
+ANSWER: -0.57%",1.0,1.0,1.0,11.69,398,95,5.8349999999999995e-05,gemini-3.1-flash-lite
+26c8f65c-7246-42e5-b2aa-e9070c8d5d6b,What does the company's compensation plan allow?,span,lookup,,a group of employees within the U.S. to contribute base salary and commissions or incentive compensation on a tax deferred basis in excess of the IRS limits imposed on 401(k) plans.,a group of employees within the U.S. to contribute base salary and commissions or incentive compensation on a tax deferred basis in excess of the IRS limits imposed on 401(k) plans.,a group of employees within the U.S. to contribute base salary and commissions or incentive compensation on a tax deferred basis in excess of the IRS limits imposed on 401(k) plans.,1.0,1.0,0.0,0.94,295,41,3.4424999999999997e-05,gemini-3.1-flash-lite
+bbcbc3a8-ebe2-4f89-84e6-6f07e3c82e3c,What are the respective values of the company's prepaid expenses in 2018 and 2019?,multi-span,multi-span,thousand,151 | 164,"$151, $164","$151, $164",1.0,1.0,0.0,0.74,279,9,2.3624999999999998e-05,gemini-flash-lite-latest
+33c65458-8b70-4e9a-8127-67465d67790b,What is the percentage change in indemnification receivable between 2018 and 2019?,arithmetic,multi-step,percent,-75.19,-75.19%,"To determine the percentage change in the indemnification receivable from SSL for pre-closing taxes between 2018 and 2019, we use the values provided in the Financial Table:
+
+1.  **Identify the values:**
+    *   Value in 2018: $2,410
+    *   Value in 2019: $598
+
+2.  **Calculate the amount of change:**
+    *   $598 - $2,410 = -$1,812
+
+3.  **Calculate the percentage change:**
+    *   (Amount of chan",1.0,1.0,1.0,11.56,269,234,9.0375e-05,gemini-3.1-flash-lite
+beb03e49-dbdc-4214-937b-b7bd81ac2211,Why did the total cloud and license expense increase in fiscal 2019 compared to fiscal 2018?,span,lookup,,"In constant currency, total cloud and license expenses increased in fiscal 2019 compared to fiscal 2018 due to higher sales and marketing expenses and higher cloud services and license support expenses, each of which increased primarily due to higher employee related expenses from higher headcount and due to higher technology infrastructure expenses.","higher sales and marketing expenses and higher cloud services and license support expenses, each of which increased primarily due to higher employee related expenses from higher headcount and due to higher technology infrastructure expenses.","higher sales and marketing expenses and higher cloud services and license support expenses, each of which increased primarily due to higher employee related expenses from higher headcount and due to higher technology infrastructure expenses.",0.0,0.7906976744186047,0.0,1.19,1246,36,0.00010425000000000001,gemini-3.1-flash-lite
+767af2ff-98d0-4cd6-9e9f-56de5ec687a3,Which product offerings were acquired with the EIS Business in 2017?,span,lookup,,Horizon Clinicals and Series2000 Revenue Cycle,Horizon Clinicals and Series2000 Revenue Cycle,Horizon Clinicals and Series2000 Revenue Cycle,1.0,1.0,0.0,0.81,684,11,5.46e-05,gemini-flash-lite-latest
+9dcfc5c6-082a-495c-91b1-561d4262bc34,"What was the Software delivery, support and maintenance revenue in 2018?",span,lookup,thousand,"$9,441","$9,441","$9,441",1.0,1.0,0.0,11.32,685,6,5.3175000000000005e-05,gemini-3.1-flash-lite
+0550ae54-99f4-4b87-b1a7-11d402a94918,What is the change in Cost of revenue of Client services from 2018 to 2017?,arithmetic,arithmetic,thousand,569,$569 thousand,"The 2018 cost of revenue for Client services was $830 (in thousands) and the 2017 cost was $261 (in thousands). The change is $830 - $261 = $569 (in thousands).
+
+ANSWER: $569 thousand",0.0,0.6666666666666666,0.0,0.82,707,67,7.3125e-05,gemini-3.1-flash-lite
+6261416c-9061-4088-aeb1-9653477f6526,What is the change to the classification for carrying amount of financial assets?,span,lookup,,"previously recognised as loans and receivables under IAS 39 now classified as amortised cost under IFRS 9, represents the maximum credit exposure",previously recognised as loans and receivables under IAS 39 now classified as amortised cost under IFRS 9,previously recognised as loans and receivables under IAS 39 now classified as amortised cost under IFRS 9,0.0,0.8717948717948718,0.0,0.82,294,22,2.865e-05,gemini-flash-lite-latest
+153f3925-277e-4fe8-8edc-50a5089420ea,What is the percentage of non-audit fees in the total fees paid to auditor in 2019?,arithmetic,arithmetic,percent,35.38,35.38%,"To calculate the percentage of non-audit fees in the total fees for 2019, divide the non-audit fees (£598,000) by the total fees paid (£1,690,000) and multiply by 100.
+(598 / 1,690) * 100 = 35.38% (rounded to two decimal places).
+
+ANSWER: 35.38%",1.0,1.0,1.0,11.99,1072,102,0.00011099999999999999,gemini-3.1-flash-lite
+0b75a6dc-0ac7-477e-a16d-8fa2cf99fddd,What was the Additions based on tax positions taken during a prior period in 2019?,span,lookup,thousand,484,484,484,1.0,1.0,1.0,0.71,620,3,4.74e-05,gemini-3.1-flash-lite
+484260d3-e655-4cab-a662-471dc0981f49,What was the change in the balance at the beginning of period between 2018 and 2019?,arithmetic,multi-step,thousand,-2828,"-$2,828","To find the change in the balance at the beginning of the period between 2018 and 2019, we look at the ""Balance at beginning of period"" row in the Financial Table for both years:
+
+- Balance at beginning of period for 2019: $13,162 (in thousands)
+- Balance at beginning of period for 2018: $15,990 (in thousands)
+
+Next, we calculate the difference (2019 balance minus 2018 balance):
+$13,162 - $15,990 ",1.0,1.0,0.0,1.41,629,153,9.3075e-05,gemini-flash-lite-latest
+a4495172-0f2d-44c8-9f4e-bdc24927c79c,What was the change in Additions based on tax positions taken during a prior period between 2017 and 2018?,arithmetic,multi-step,thousand,-1164,"-1,164","To determine the change in ""Additions based on tax positions taken during a prior period"" between 2017 and 2018, we refer to the provided Financial Table:
+
+1.  Identify the value for ""Additions based on tax positions taken during a prior period"" for 2017: **$1,258**
+2.  Identify the value for ""Additions based on tax positions taken during a prior period"" for 2018: **$94**
+3.  Calculate the change:",1.0,1.0,1.0,12.31,633,160,9.5475e-05,gemini-3.1-flash-lite
+67f205fc-b6b1-4135-9fac-e2378d7fcd25,What was the Net income attributable to American Tower Corporation stockholders in 2019?,span,lookup,million,"$1,887.8","$1,887.8","$1,887.8",1.0,1.0,0.0,0.71,485,8,3.8775e-05,gemini-3.1-flash-lite
+fadbca7f-1093-4e43-860a-25c53e0221ab,What does investment in associates comprise of?,multi-span,multi-span,,32.4 per cent holding in the ordinary shares of Prozone Intu Properties Limited (Prozone) | a 26.8 per cent direct holding in the ordinary shares of Empire Mall Private Limited (Empire),"a 32.4 per cent holding in the ordinary shares of Prozone Intu Properties Limited (Prozone), a 26.8 per cent direct holding in the ordinary shares of Empire Mall Private Limited (Empire)","a 32.4 per cent holding in the ordinary shares of Prozone Intu Properties Limited (Prozone), a 26.8 per cent direct holding in the ordinary shares of Empire Mall Private Limited (Empire)",1.0,1.0,0.0,0.79,684,45,6.48e-05,gemini-flash-lite-latest
+59f389c8-7610-4b3b-b20b-694a08978246,What is the company's 2019 right of use assets?,span,lookup,,"$33,014","$33,014","$33,014",1.0,1.0,0.0,14.66,263,7,2.1825e-05,gemini-3.1-flash-lite
+f140a65f-c408-45fc-8c60-e98e13530452,"What is the average number of nonvested shares forfeited on January 1, 2017 and between December 30, 2018 and December 29, 2019?",arithmetic,arithmetic,thousand,30,CANNOT_ANSWER,"The forfeited shares on January 1, 2017 are not provided (only the balance of nonvested shares), and the number of shares forfeited between December 30, 2018 and December 29, 2019 is 41 thousand. 
+
+CANNOT_ANSWER",0.0,0.0,0.0,1.17,634,66,6.735e-05,gemini-3.1-flash-lite
+6ba4045d-4222-4da0-a126-94b267a707ec,What is the average global regional films (excluding Tamil films) from 2017-2019?,arithmetic,arithmetic,,21.33,21.33,"To find the average, we take the sum of Global regional films (excluding Tamil films) for the years 2017, 2018, and 2019 (12 + 3 + 49 = 64) and divide by 3: 64 / 3 = 21.33.
+
+ANSWER: 21.33",1.0,1.0,1.0,1.36,526,83,6.434999999999999e-05,gemini-flash-lite-latest
+ec690932-9852-4987-9e84-e4728ed6ca43,How long is the period of expected benefit?,span,lookup,,varies from 2 to 10 years,2 to 10 years,2 to 10 years,0.0,0.8,0.0,11.06,640,6,4.9800000000000004e-05,gemini-3.1-flash-lite
+e302a7ec-94e5-4bea-bff4-5d4b9d4f6265,How long is Leigh Fox's tenure with the company?,arithmetic,arithmetic,,12,7 years and 2 months,"Leigh R. Fox has held various roles since December 2012 (Senior Vice President of Finance and Operations). Calculating from December 2012 to the context date of February 24, 2020, equals approximately 7 years and 2 months.
+
+ANSWER: 7 years and 2 months",0.0,0.0,0.0,1.26,1481,69,0.000131775,gemini-3.1-flash-lite
+df9b9e2c-cf09-46bc-a2a6-51a0620072f8,Who is the company's Chief Financial Officer?,span,lookup,,Andrew R. Kaiser,Andrew R Kaiser,Andrew R Kaiser,1.0,1.0,0.0,0.73,1464,3,0.0001107,gemini-flash-lite-latest
+9238f11f-18d1-416b-ad2d-2692229c8d3a,What is the total cash provided by all cash flow related activities between 2017 to 2019?,arithmetic,arithmetic,thousand,16767,"$16,767 (in thousands)","The total net increase (decrease) in cash for each year is: 2019 ($5,121), 2018 ($(5,946)), and 2017 ($17,592). Adding these values ($5,121 - $5,946 + $17,592) equals $16,767.
+
+ANSWER: $16,767 (in thousands)",0.0,0.5,0.0,11.48,333,100,5.4974999999999995e-05,gemini-3.1-flash-lite
+33fd26df-9da7-489c-96e6-bd43a8b79d89,"What is the average Products and licensing costs for December 31, 2018 and 2019?",arithmetic,arithmetic,,12381521,"$12,381,521","The average is calculated by adding the Products and licensing costs for 2018 ($8,078,870) and 2019 ($16,684,172) and dividing the sum by 2.
+
+ANSWER: $12,381,521",1.0,1.0,0.0,0.87,541,68,6.097499999999999e-05,gemini-3.1-flash-lite
+032682c3-c3c1-4e3b-9554-05f68fdb4cc8,"What is the average Technology development costs for December 31, 2018 and 2019?",arithmetic,arithmetic,,17024818,"$17,024,818","To find the average Technology development costs for 2018 and 2019, add the costs for both years ($18,649,161 + $15,400,475) and divide by 2.
+Calculation: ($18,649,161 + $15,400,475) / 2 = $34,049,636 / 2 = $17,024,818.
+
+ANSWER: $17,024,818",1.0,1.0,0.0,0.94,540,128,7.89e-05,gemini-flash-lite-latest
+ebbf3324-49cd-4fa6-a3ef-a6b9f5f9dee8,"In which year was Products and licensing costs less than 10,000,000?",span,comparison,,2018,2018,"Based on the provided table, the Products and licensing costs were $16,684,172 in 2019 and $8,078,870 in 2018. Comparing these values, $8,078,870 is less than $10,000,000, while $16,684,172 is not.
+
+ANSWER: 2018",1.0,1.0,1.0,11.5,517,99,6.8475e-05,gemini-3.1-flash-lite
+a3ea64bc-4447-4c0b-b76c-84575a3a0de2,What is the average Research and development funding?,arithmetic,arithmetic,million,83,$83 million,"To calculate the average research and development funding, sum the values from 2019 ($132 million), 2018 ($52 million), and 2017 ($65 million), then divide by 3.
+($132 + $52 + $65) / 3 = $249 / 3 = $83.
+
+ANSWER: $83 million",0.0,0.6666666666666666,0.0,0.95,504,88,6.419999999999999e-05,gemini-3.1-flash-lite
+cd3367c7-d3bd-440c-8c51-90a6ee95cc77,What is the increase/ (decrease) in Research and development funding from 2017 to 2019?,arithmetic,arithmetic,million,67,$67 million,"To find the increase/decrease in Research and development funding from 2017 to 2019, subtract the 2017 amount ($65 million) from the 2019 amount ($132 million): $132 million - $65 million = $67 million.
+
+ANSWER: $67 million",0.0,0.6666666666666666,0.0,0.94,521,74,6.1275e-05,gemini-flash-lite-latest
+c174c321-d180-4335-b562-e570536f0725,"What was the percentage change in Property, Plant, and Equipment, Net in 2019 from 2018?",arithmetic,arithmetic,percent,2.2,2.20%,"The net property, plant, and equipment was $3,574 million in 2019 and $3,497 million in 2018. The percentage change is calculated as (($3,574 - $3,497) / $3,497) * 100.
+
+ANSWER: 2.20%",0.0,0.0,1.0,11.39,407,80,5.4525e-05,gemini-3.1-flash-lite
+6aeb0681-de05-4f1e-9d36-f6855f74f4f2,For which year(s) is the amortization of purchased intangibles included in the CMS results recorded?,multi-span,multi-span,,2019 | 2018,"2019, 2018","2019, 2018",1.0,1.0,1.0,0.94,791,10,6.2325e-05,gemini-3.1-flash-lite
+7662c80f-c404-41fb-ab9a-282e91822f74,What are the years included in the table?,multi-span,multi-span,,2019 | 2018,"2019, 2018","2019, 2018",1.0,1.0,1.0,0.84,419,10,3.4424999999999997e-05,gemini-flash-lite-latest
+49dbbc90-5307-49ae-b802-e87d19214c40,What is the change in total sales from fiscal 2018 to 2019?,arithmetic,arithmetic,million,1600.1,"$1,600.1 million","Total net sales for fiscal 2019 were $9,538.4 million and for fiscal 2018 were $7,938.3 million. The change is $9,538.4 million minus $7,938.3 million, which equals $1,600.1 million.
+
+ANSWER: $1,600.1 million",0.0,0.6666666666666666,0.0,11.29,1737,86,0.000156075,gemini-3.1-flash-lite
+9551fa01-dfe4-4bbb-bd0f-cb4ec1c83d3b,"How many years did Net income adjusted for non-cash items exceed $50,000 thousand?",count,count,,1,1,"For the Year Ended December 31, 2018, Net income adjusted for non-cash items was $82,362 thousand, which exceeds $50,000 thousand.
+For the Year Ended December 31, 2017, Net income adjusted for non-cash items was $15,742 thousand, which does not exceed $50,000 thousand.
+
+ANSWER: 1",1.0,1.0,1.0,0.94,625,96,7.5675e-05,gemini-3.1-flash-lite
+597ddf84-c37d-4a2e-a220-dfad440c0114,What was the compensation expense in 2019?,span,lookup,,"$1,792,000","$1,792,000","$1,792,000",1.0,1.0,0.0,0.72,541,10,4.3574999999999995e-05,gemini-flash-lite-latest
+d713cc10-43c6-4fe9-9808-24ddc7160f0f,"How many years did Stock-based compensation exceed $2,000 thousand?",count,count,,1,1,"Based on the provided table, the Stock-based compensation amounts are:
+- March 31, 2019: $5,589
+- March 31, 2018: $1,765
+
+Stock-based compensation exceeded $2,000 thousand in only one of the two years provided.
+
+ANSWER: 1",1.0,1.0,1.0,11.61,615,79,6.9825e-05,gemini-3.1-flash-lite
+9e632ed1-1a2b-40a9-9a9a-72515db3585d,What was the change in beginning balance between 2017 and 2018?,arithmetic,multi-step,million,0.3,0.3,"To determine the change in the beginning balance between 2017 and 2018, we follow these steps:
+
+1.  **Identify the beginning balance for 2017 from the table:**
+    The beginning balance for 2017 is $(2.2) million.
+
+2.  **Identify the beginning balance for 2018 from the table:**
+    The beginning balance for 2018 is $(1.9) million.
+
+3.  **Calculate the change:**
+    Change = (2018 Beginning Balance",1.0,1.0,1.0,1.15,331,196,8.3625e-05,gemini-3.1-flash-lite
+e44b3ca5-1c32-44c9-9155-61465b79e908,"What was the income tax expense in 2019, 2018 and 2017 respectively?",multi-span,multi-span,million,12.0 | 66.6 | 23.0,"$12.0 million, $66.6 million, $23.0 million","$12.0 million, $66.6 million, $23.0 million",0.0,0.6666666666666666,0.0,1.11,1829,20,0.000143175,gemini-flash-lite-latest
+27da724b-0334-4292-a9ef-cb978175055b,What does the distribution of trade receivables and contract assets follow?,span,lookup,,distribution of the Company’s sales,the distribution of the Company’s sales,the distribution of the Company’s sales,0.0,0.9090909090909091,0.0,11.33,375,8,3.0524999999999997e-05,gemini-3.1-flash-lite
+4190424e-ce6e-4f5c-9175-51afdba156e5,What is the difference between 181-360 and >360 due for all countries?,arithmetic,arithmetic,,1503,"1,503","The total for 181-360 days past due is 944 and the total for >360 days past due is 2,447. The difference is calculated as 2,447 - 944 = 1,503.
+
+ANSWER: 1,503",1.0,1.0,1.0,0.94,401,71,5.1375e-05,gemini-3.1-flash-lite
+efbff294-365a-47c4-b530-7de812c65bf3,"What are the segments for which the expected, incurred, and remaining charges for the fiscal 2019 program are recorded?",multi-span,multi-span,,Transportation Solutions | Industrial Solutions | Communications Solutions,"Transportation Solutions, Industrial Solutions, Communications Solutions","Transportation Solutions, Industrial Solutions, Communications Solutions",1.0,1.0,0.0,0.74,385,8,3.1275e-05,gemini-flash-lite-latest
+54b11fb5-014a-4042-affa-fe96ea5e5eaa,What was the average amount of total expected charges per segment?,arithmetic,arithmetic,million,96.33,$96.33 million,"The total expected charges for all three segments is $289 million divided by 3 segments.
+
+ANSWER: $96.33 million",0.0,0.6666666666666666,0.0,11.49,374,30,3.705e-05,gemini-3.1-flash-lite
+5e67e832-44c4-4284-96d3-75b81cd1ac26,What is the amount of payroll taxes in 2019 and 2018 respectively?,multi-span,multi-span,thousand,155 | 113,"155, 113","155, 113",1.0,1.0,1.0,0.84,315,8,2.6025000000000002e-05,gemini-3.1-flash-lite
+e0dcea2e-6a17-4797-92f9-5ce248888622,"In 2019, what is the percentage constitution of warranty reserve among the total accrued liabilities?",arithmetic,multi-step,percent,14.81,14.81%,"Step 1: Locate the warranty reserve amount for 2019 in the table, which is $529 (in thousands).
+Step 2: Locate the total accrued liabilities for 2019 in the table, which is $3,571 (in thousands).
+Step 3: Calculate the percentage constitution by dividing the warranty reserve by the total accrued liabilities and multiplying by 100.
+Calculation: $(529 / 3571) \times 100 = 14.81377...\%$
+Step 4: Round",1.0,1.0,1.0,1.56,308,170,7.41e-05,gemini-flash-lite-latest
+ab668510-4ca8-42c9-b342-cd56f4cb7f1e,What is the difference in fair value between current assets and fixed assets?,arithmetic,multi-step,thousand,36847,"36,847","To determine the difference in fair value between current assets and fixed assets, we refer to the ""Financial Table"" provided:
+
+1.  **Identify the fair value of Current assets:** The table lists ""Current assets"" with a fair value of $37,390.
+2.  **Identify the fair value of Fixed assets:** The table lists ""Fixed assets"" with a fair value of $543.
+3.  **Calculate the difference:** $37,390 - $543 = ",1.0,1.0,1.0,14.47,862,152,0.00011025,gemini-3.1-flash-lite
+f9f60b5b-777c-4e3e-a2d2-813da49f9459,What was the in-game net bookings in 2018?,span,lookup,million,"$4,203","$4,203","$4,203",1.0,1.0,0.0,0.78,875,6,6.7425e-05,gemini-3.1-flash-lite
+040fbb37-ccac-4854-ad02-539c11a00b6f,What was the percentage change in in-game net bookings between 2018 and 2019?,arithmetic,arithmetic,percent,-19.91,-19.91%,"To find the percentage change in in-game net bookings between 2018 and 2019, divide the decrease ($(837) million) by the 2018 amount ($4,203 million): (-837 / 4,203) * 100.
+This results in approximately -19.914%.
+ANSWER: -19.91%",1.0,1.0,1.0,0.96,899,91,9.4725e-05,gemini-flash-lite-latest
+4de47ae5-67fc-422d-841e-d31a5a7352b4,"What is the average of the amount of net balances at September 30, 2019 for Cubic Transportation Systems, Cubic Mission Solutions and Cubic Global Defense?",arithmetic,multi-step,thousand,192699,192699,"To find the average of the net balances at September 30, 2019, for the three specified reporting units, we perform the following steps:
+
+1. **Identify the values from the provided table for September 30, 2019:**
+   - Cubic Transportation Systems: $254,592
+   - Cubic Mission Solutions: $181,424
+   - Cubic Global Defense: $142,081
+
+2. **Calculate the sum of these values:**
+   $254,592 + $181,424 + $",1.0,1.0,1.0,11.62,1046,202,0.00013905,gemini-3.1-flash-lite
+e9ee1e78-8957-4be8-a10e-672ec4fe6dbe,What is the company's total goodwill impairment in 2018 and 2019?,arithmetic,arithmetic,thousand,16650,"$16,650 thousand","The 2018 impairment was $14,740 thousand and the 2019 impairment was $1,910 thousand. The total is $14,740 thousand + $1,910 thousand = $16,650 thousand.
+
+ANSWER: $16,650 thousand",0.0,0.6666666666666666,0.0,1.25,342,73,4.755e-05,gemini-3.1-flash-lite
+1d868d0c-ddf5-4c62-8c73-28b453e91abc,What is the primary reason for the increase in the Company's deferred tax liability?,span,lookup,,the Company's decision to take bonus depreciation on qualifying assets placed in service during fiscal 2019.,the Company's decision to take bonus depreciation on qualifying assets placed in service during fiscal 2019,the Company's decision to take bonus depreciation on qualifying assets placed in service during fiscal 2019,1.0,1.0,0.0,0.92,808,22,6.72e-05,gemini-flash-lite-latest
+05d737b5-d0be-42e8-9a20-0a0a413cb214,Which years does the table provide information for the reconciliation from U.S. GAAP Operating income to non-GAAP Adjusted operating income?,multi-span,multi-span,,2019 | 2018 | 2017,"2019, 2018, 2017","2019, 2018, 2017",1.0,1.0,1.0,11.06,609,16,5.0475e-05,gemini-3.1-flash-lite
+c5f0987e-eeb3-40cd-af72-085dae874436,What is the average Trade accounts receivable?,arithmetic,arithmetic,,1344,"1,344","The average is calculated by adding the Trade accounts receivable for 2019 (1,396) and 2018 (1,292) and dividing by 2.
+(1,396 + 1,292) / 2 = 1,344
+
+ANSWER: 1,344",1.0,1.0,1.0,0.85,328,76,4.74e-05,gemini-3.1-flash-lite
+1046abe8-e597-41fe-abd4-98c3b718998c,What were the net losses for video service customers in 2019?,span,lookup,,"4,697","(4,697)","(4,697)",1.0,1.0,0.0,0.91,793,7,6.157499999999999e-05,gemini-flash-lite-latest
+565fb688-b453-46ce-ba8f-bfe2375a80d8,What was the average of other assets for 2018 and 2019?,arithmetic,arithmetic,million,1861.5,"$1,861.5 million","To find the average of other assets for 2018 and 2019, add the amounts for those years ($1,911 million and $1,812 million) and divide by 2.
+($1,911 + $1,812) / 2 = $1,861.5
+
+ANSWER: $1,861.5 million",0.0,0.6666666666666666,0.0,11.27,847,87,8.9625e-05,gemini-3.1-flash-lite
+d6fd8039-e4d4-45eb-b22e-d8ddc6e068e1,What was the percentage change in the Average invested capital between 2018 and 2019?,arithmetic,multi-step,percent,25.49,25.49%,"To calculate the percentage change in Average invested capital between 2018 and 2019, we use the values provided in the Financial Table:
+
+1.  **Identify the values:**
+    *   Average invested capital (2018) = $735.6
+    *   Average invested capital (2019) = $923.1
+
+2.  **Calculate the absolute change:**
+    *   Change = 2019 value - 2018 value
+    *   Change = $923.1 - $735.6 = $187.5
+
+3.  **Calcu",1.0,1.0,1.0,1.57,819,262,0.000140025,gemini-3.1-flash-lite
+24cd1ddb-a87d-4fde-9129-770a5fb65657,What is the change between indirect energy consumption (MWh) in 2018 and 2019 year end?,arithmetic,arithmetic,,31311.65,"31,311.65 MWh","To find the change between indirect energy consumption in 2018 and 2019, we subtract the 2018 value from the 2019 value: 185,948.09 MWh - 154,636.44 MWh = 31,311.65 MWh.
+
+ANSWER: 31,311.65 MWh",0.0,0.6666666666666666,0.0,1.01,780,95,8.7e-05,gemini-flash-lite-latest
+176587d4-2707-40ee-9bd5-cd2d75e17980,What is the percentage change in net income between fiscal years 2019 and 2018?,arithmetic,arithmetic,percent,-13.25,-13.245%,"The percentage change is calculated as (($53,294 - $61,431) / $61,431) * 100, which equals approximately -13.245%.
+
+ANSWER: -13.245%",0.0,0.0,1.0,11.14,543,59,5.8425e-05,gemini-3.1-flash-lite
+9e3c7e60-2851-455f-835d-7ba3e276ffc2,How many years did Gross deferred tax assets exceed $400 million?,count,count,,1,1,"Based on the provided table:
+
+*   April 26, 2019: $426 million (Exceeds $400 million)
+*   April 27, 2018: $395 million (Does not exceed $400 million)
+
+The gross deferred tax assets exceeded $400 million in 1 year.
+
+ANSWER: 1",1.0,1.0,1.0,0.88,1290,86,0.00012255,gemini-3.1-flash-lite
+2b0c326b-d144-4522-a918-4f509aa789f3,What was the average net cash provided by operating activities from 2017-2019?,arithmetic,multi-step,thousand,91104,"$91,104 thousand","Step 1: Extract the net cash provided by operating activities for the years 2017, 2018, and 2019 from the provided table (values are in thousands):
+- 2019: $115,549 (thousand)
+- 2018: $90,253 (thousand)
+- 2017: $67,510 (thousand)
+
+Step 2: Sum the net cash provided by operating activities for the three years:
+Sum = 115,549 + 90,253 + 67,510 = 273,312 (thousand)
+
+Step 3: Divide the sum by the number",0.0,0.6666666666666666,0.0,1.19,428,212,9.57e-05,gemini-flash-lite-latest
+475616e0-6449-444e-8087-f9afc6da36be,"For Balance payable as at June 30, 2019, what is Workforce reduction expressed as a percentage of Facility costs?",arithmetic,arithmetic,percent,35.47,35.47%,"To find the percentage, divide the Workforce reduction balance ($1,046) by the Facility costs balance ($2,949) as of June 30, 2019, and multiply by 100.
+($1,046 / $2,949) * 100 = 35.46965...%
+
+ANSWER: 35.47%",1.0,1.0,1.0,11.26,667,92,7.762499999999999e-05,gemini-3.1-flash-lite
+33437a5b-9c80-4961-a8c6-9a31c6458cf8,What is the average percentage of net revenues of OEM?,arithmetic,arithmetic,percent,67,67%,"The average percentage of net revenues for OEM is calculated by taking the sum of the percentages for 2019 (70%), 2018 (65%), and 2017 (66%) and dividing by 3.
+(70 + 65 + 66) / 3 = 201 / 3 = 67%
+
+ANSWER: 67%",1.0,1.0,1.0,0.86,374,88,5.4449999999999995e-05,gemini-3.1-flash-lite
+8f82ba3f-683f-444d-8ca5-de376a1bf459,What is the difference in gains on the sale of company-operated restaurants between 2018 and 2019?,arithmetic,multi-step,thousand,44798,"$44,798 (in thousands)","To find the difference in gains on the sale of company-operated restaurants between 2018 and 2019, we look at the ""Gains on the sale of company-operated restaurants"" line in the Financial Table:
+
+1. Locate the gains for 2018: $46,164 (in thousands)
+2. Locate the gains for 2019: $1,366 (in thousands)
+3. Calculate the difference between 2018 and 2019: $46,164 - $1,366 = $44,798 (in thousands)
+
+ANSWE",0.0,0.5,0.0,1.19,884,155,0.0001128,gemini-flash-lite-latest
+2581c0dc-1e8d-49b5-90a0-dd8a0f0ecfef,What is the average annual Total change in general and administrative expenses for fiscal year 2017 to 2019? ,arithmetic,arithmetic,thousand,18778,"$18,778 thousand","The total change for 2018 and 2017 was $34,874 thousand and for 2019 and 2018 was $2,682 thousand, totaling $37,556 thousand over two periods. Dividing this sum by 2 equals $18,778 thousand.
+
+ANSWER: $18,778 thousand",0.0,0.6666666666666666,0.0,32.22,565,86,6.8175e-05,gemini-3.1-flash-lite
+16e717d5-80b8-4888-9e21-cf255ae2a5a5,How much of the investing cash outflow was attributed to acquisitions in 2018?,arithmetic,arithmetic,million,467,S$467 million,"The investing cash outflow attributed to acquisitions in the 2018 financial year consists of S$123 million for Videology assets and S$344 million for a 5.7% equity interest in Airtel Africa, totaling S$467 million.
+
+ANSWER: S$467 million",0.0,0.0,0.0,1.03,1219,65,0.000110925,gemini-3.1-flash-lite
+6a850161-ce93-4e19-91ee-c30bb5bc298f,What do floating and fixed rate financial assets comprise of?,span,lookup,,cash at bank or cash placed on deposit,cash at bank or cash placed on deposit,cash at bank or cash placed on deposit,1.0,1.0,0.0,0.97,400,8,3.24e-05,gemini-flash-lite-latest
+ef7c9be8-022f-418a-8a6f-841187811abd,What caused the increase in interest expense in 2019?,span,lookup,,driven by a higher average debt balance and higher interest rates as we issued debt to finance the Red Hat acquisition.,a higher average debt balance and higher interest rates as we issued debt to finance the Red Hat acquisition,a higher average debt balance and higher interest rates as we issued debt to finance the Red Hat acquisition,0.0,0.9500000000000001,0.0,11.48,391,19,3.5025e-05,gemini-3.1-flash-lite
+387d3305-5256-4239-b74b-c6a34678818c,What are the company's respective gross profit from cloud in 2019 and 2018?,multi-span,multi-span,thousand,"67,918 | 45,218","$67,918, $45,218","$67,918, $45,218",0.0,0.0,0.0,0.76,570,15,4.725e-05,gemini-3.1-flash-lite
+3bfa4a57-a239-4906-b5c6-d3135bad7b99,What is the rationale for the projection for Oil and gas markets in 2020?,span,lookup,,driven by the liquefied natural gas and upstream markets,driven by the liquefied natural gas and upstream markets,driven by the liquefied natural gas and upstream markets,1.0,1.0,0.0,0.95,972,9,7.56e-05,gemini-flash-lite-latest
+a6d4005c-b68e-4da6-af04-3d15a1520f63,How much was the 2019 investment income ?,span,lookup,million,433,433,433,1.0,1.0,1.0,11.04,466,3,3.585e-05,gemini-3.1-flash-lite
+310092c4-8b31-44bf-908b-066825de7b59,What did infrastructure platforms consist of?,span,lookup,,"core networking technologies of switching, routing, wireless, and data center products that are designed to work together to deliver networking capabilities and transport and/or store data.","core networking technologies of switching, routing, wireless, and data center products that are designed to work together to deliver networking capabilities and transport and/or store data.","core networking technologies of switching, routing, wireless, and data center products that are designed to work together to deliver networking capabilities and transport and/or store data.",1.0,1.0,0.0,580.99,1194,32,9.915e-05,gemini-3.1-flash-lite
+1a7a45aa-7fff-46dd-b7b0-4cd0ec52fb65,What was the revenue from infrastructure platforms in 2018?,span,lookup,million,"28,322","$28,322","$28,322",1.0,1.0,0.0,50.82,1201,7,9.2175e-05,gemini-3.1-flash-lite
+545b8045-d882-40f7-ac94-9767957077f9,What was the percentage change in total revenue between 2018 and 2019?,arithmetic,multi-step,percent,5.22,5.22%,"To calculate the percentage change in total revenue between 2018 and 2019:
+
+1. **Identify the total revenue values from the table:**
+   * Total revenue for 2019 (July 27, 2019): $51,904 million
+   * Total revenue for 2018 (July 28, 2018): $49,330 million
+
+2. **Calculate the absolute change:**
+   * $51,904 - $49,330 = $2,574 million
+
+3. **Calculate the percentage change:**
+   * Formula: (Absolute C",1.0,1.0,1.0,11.96,1213,221,0.000157275,gemini-3.1-flash-lite
+988c235c-3d8b-49ac-a8d9-8ada25dbf89f,Which years does the table provide information for  net sales by channel and the percentages of net sales by region to total net sales?,multi-span,multi-span,,2018 | 2019,"Fiscal Year 2019, Fiscal Year 2018","Fiscal Year 2019, Fiscal Year 2018",0.0,0.5,0.0,0.81,982,15,7.814999999999999e-05,gemini-3.1-flash-lite
+f3eb9649-910b-400e-98a9-70c0591d3072,How many years did the percentages of net sales from EMEA of total net sales exceed 20%?,count,count,,2,2,"To find the number of years the percentages of net sales from EMEA of total net sales exceeded 20%, we look at the EMEA % of Total column in the Financial Table:
+- Fiscal Year 2019: 22.8% (exceeds 20%)
+- Fiscal Year 2018: 23.1% (exceeds 20%)
+
+Both years exceed 20%, resulting in a count of 2.
+
+ANSWER: 2",1.0,1.0,1.0,1.12,963,105,0.00010372499999999999,gemini-flash-lite-latest
+42ad68ec-7bc2-4fc5-993b-6e09ef7c666e,What was the difference in the net sales in 2019 between APAC and EMEA?,arithmetic,multi-step,thousand,217805,"217,805","To calculate the difference in net sales between APAC and EMEA in fiscal year 2019, we look at the ""Financial Table"" provided:
+
+1. Identify Net Sales for APAC in 2019: $533,340 (in thousands)
+2. Identify Net Sales for EMEA in 2019: $315,535 (in thousands)
+3. Calculate the difference: $533,340 - $315,535 = $217,805
+
+ANSWER: 217,805",1.0,1.0,1.0,12.2,968,128,0.00011099999999999999,gemini-3.1-flash-lite
+67bf2b71-e084-4cc4-8693-cba6c8c50170,In which years was the fair value of the derivative liabilities recorded for?,multi-span,multi-span,,2018 | 2019,"2018, 2019","2018, 2019",1.0,1.0,1.0,0.86,579,10,4.6425e-05,gemini-3.1-flash-lite
+89e21fa8-60b1-4f4f-be8d-497733907f52,What was the change in the Dilutive impact of employee equity award plans between 2018 and 2019?,arithmetic,multi-step,million,-3,-3,"To find the change in the Dilutive impact of employee equity award plans between 2018 and 2019, we look at the provided financial table:
+
+1. Locate the row ""Dilutive impact of employee equity award plans"" in the table.
+2. Find the value for the year ended April 26, 2019: 5.
+3. Find the value for the year ended April 27, 2018: 8.
+4. Calculate the change from 2018 to 2019 (2019 value minus 2018 valu",1.0,1.0,1.0,1.2,457,152,7.9875e-05,gemini-flash-lite-latest
+5458cda4-4e6a-490a-b097-aa300fb5334a,How many years is the minimum lifespan of the land and rights-of-way?,span,lookup,,20,20,20,1.0,1.0,1.0,11.1,588,2,4.47e-05,gemini-3.1-flash-lite
+9d2aa4d9-194f-417a-9ed7-95cf4f5c95cd,"What is the change in accumulated depreciation for PPE between December 31, 2018 and 2019?",arithmetic,arithmetic,percent,7.6,$209.5 million,"The accumulated depreciation was $(2,964.6) million in 2019 and $(2,755.1) million in 2018. The change is calculated as -2,964.6 - (-2,755.1) = -209.5.
+
+ANSWER: $209.5 million",0.0,0.0,0.0,1.01,613,79,6.9675e-05,gemini-3.1-flash-lite
+21273aa1-d155-4d2e-8214-37e8261a2571,What is the 2018 IAS 39 opening balance of financial liabilities?,span,lookup,million,"2,154","2,154","2,154",1.0,1.0,1.0,1.02,838,5,6.434999999999999e-05,gemini-flash-lite-latest
+c1999871-dfe9-41cd-8a76-b55dff91dad8,What is the 2018 IFRS9 opening balance of financial assets?,span,lookup,million,"100,107","100,107","100,107",1.0,1.0,1.0,11.08,837,7,6.487499999999999e-05,gemini-3.1-flash-lite
+21e0abec-2256-4dd3-be8e-9329e4726546,What is the 2018 carrying amount of interest rate swaps?,span,lookup,million,"1,663","1,663","1,663",1.0,1.0,1.0,0.74,651,5,5.0325e-05,gemini-3.1-flash-lite
+c9b0fa1e-6fe7-403e-b0f1-9367e6485fcf,How much is the change between 2018 and 2019 notional amount of the interest rate swaps?,arithmetic,arithmetic,million,-48207,"48,207 RMB’Million","To find the change between the 2018 and 2019 notional amounts, subtract the 2019 notional amount from the 2018 notional amount using values from the table: 77,630 RMB'Million - 29,423 RMB'Million.
+48,207 RMB'Million
+ANSWER: 48,207 RMB’Million",0.0,0.6666666666666666,0.0,0.96,677,92,7.8375e-05,gemini-flash-lite-latest
+fbeb392a-39b2-4222-b34a-ab1143b16103,What is the revenue from the United States in 2018 based on the geographic location of the customer’s headquarters?,span,lookup,,"$17,116","$17,116","$17,116",1.0,1.0,0.0,11.1,604,7,4.74e-05,gemini-3.1-flash-lite
+f1a33e83-3a96-410a-8878-5e1fd1773a6d,"What is the total percentage of revenue from Taiwan and Japan over total revenue in 2019, based on the geographic location of the customer's headquarters?",arithmetic,arithmetic,percent,15.64,15.64%,"To find the percentage, divide the revenue of Taiwan ($2,703) and Japan ($958) by the total revenue ($23,406) for 2019: ($2,703 + $958) / $23,406 = $3,661 / $23,406.
+
+ANSWER: 15.64%",1.0,1.0,1.0,1.01,626,89,7.365e-05,gemini-3.1-flash-lite
+8de2ed8c-c548-4bb9-982c-5d714675b443,"What is the revenue amount from sales into China (including Hong Kong) in 2019, based on the ship-to locations?",arithmetic,multi-step,,12405.18,"$12,405.18","Step 1: Look at the supporting paragraphs to find the total revenue for the years mentioned and the percentage breakdown based on ship-to locations.
+- The supporting paragraphs state: ""revenue from sales into China (including Hong Kong) accounted for 53%, 57%, and 51% of total revenue in 2019, 2018, and 2017, respectively"".
+- Therefore, the percentage for China (including Hong Kong) in 2019 is 53%",1.0,1.0,0.0,1.41,612,294,0.0001341,gemini-flash-lite-latest
+fb827df9-c81e-4d69-acb6-cf48e9179ae4,What was the reclassification and others in 2019 primarily due to?,span,lookup,,tax adjustments for acquisitions in 2019 and 2018,tax adjustments for acquisitions in 2019 and 2018,tax adjustments for acquisitions in 2019 and 2018,1.0,1.0,0.0,11.48,633,16,5.2275000000000003e-05,gemini-3.1-flash-lite
+53b4b983-2521-4087-8a7e-2760c65f1816,"How much does the company estimate to fund its pension and postretirement plans over the next twelve months, respectively?",multi-span,multi-span,,$14.2 million | $10.8 million,"$14.2 million, $10.8 million","$14.2 million, $10.8 million",1.0,1.0,0.0,2.34,1734,13,0.00013394999999999998,gemini-3.1-flash-lite
+ff56e9b6-08fa-4a3a-b013-b948945372dc,What was the increase in FCC licenses in 2019?,span,lookup,,$15.6 million,$15.6 million,$15.6 million,1.0,1.0,0.0,0.84,406,6,3.225e-05,gemini-flash-lite-latest
+4d32a730-3d41-4884-b4eb-f45496921b34,What was the state licenses in 2018?,span,lookup,million,2.5,2.5,2.5,1.0,1.0,1.0,11.08,404,3,3.12e-05,gemini-3.1-flash-lite
+7e8041b3-4b8c-4e47-8c83-af0b9a6fdb4c,What was the increase / (decrease) in the FCC licenses from 2018 to 2019?,arithmetic,arithmetic,million,15.6,$15.6 million,"The increase is calculated by subtracting the 2018 FCC licenses value ($120.6 million) from the 2019 FCC licenses value ($136.2 million).
+$136.2 million - $120.6 million = $15.6 million.
+
+ANSWER: $15.6 million",0.0,0.6666666666666666,0.0,1.05,432,74,5.46e-05,gemini-3.1-flash-lite
+96301054-1b68-403c-9266-87fdadcb6900,In which year is the diluted earnings per share the lowest?,span,comparison,,2018,2018,"To determine in which year the diluted earnings per share is the lowest, we compare the diluted earnings per share values for the years ended September 30 from the financial table:
+
+- 2019: $(0.08)
+- 2018: $(0.19)
+- 2017: $0.12
+
+Comparing these values, $-0.19$ (for the year 2018) is the lowest among them.
+
+ANSWER: 2018",1.0,1.0,1.0,0.98,861,111,9.7875e-05,gemini-flash-lite-latest
+c3780f63-8598-4997-b66e-7a823b87f96a,What is the sum of consolidated net revenues and in-game net revenues in 2019?,arithmetic,multi-step,million,9865,"9,865","To determine the sum of consolidated net revenues and in-game net revenues in 2019, we perform the following steps:
+
+1. Identify the consolidated net revenues for 2019 from the provided table: $6,489 million.
+2. Identify the in-game net revenues for 2019 from the provided table: $3,376 million.
+3. Calculate the sum of these two figures: $6,489 million + $3,376 million = $9,865 million.
+
+ANSWER: 9,",1.0,1.0,1.0,12.29,559,127,8.002500000000001e-05,gemini-3.1-flash-lite
+acde36c6-c718-4bfc-ae8d-0083d3dab3f0,What was the percentage change in the Net income per diluted share between 2018 and 2019?,arithmetic,multi-step,percent,-19.17,-19.17%,"To determine the percentage change in the Net income per diluted share between 2018 and 2019, we perform the following steps:
+
+1.  **Identify the Net income per diluted share values from the table:**
+    *   2018: $4.33
+    *   2019: $3.50
+
+2.  **Calculate the change in value:**
+    *   Change = 2019 Value - 2018 Value
+    *   Change = $3.50 - $4.33 = -$0.83
+
+3.  **Calculate the percentage change:",1.0,1.0,1.0,2.05,478,233,0.00010575,gemini-3.1-flash-lite
+8e124102-222d-4757-8aab-f4859a70f312,Where are personnel expense included in the consolidated statement?,span,lookup,,cost of sales and in operating expenses,cost of sales and in operating expenses,cost of sales and in operating expenses,1.0,1.0,0.0,0.84,296,7,2.43e-05,gemini-flash-lite-latest
+112727c3-fefd-4d11-9edd-5370981e9c0c,What was the telecommunication - installation in 2019?,span,lookup,million,33.2,33.2,33.2,1.0,1.0,1.0,11.3,889,4,6.7875e-05,gemini-3.1-flash-lite

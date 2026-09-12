@@ -1,0 +1,7 @@
+reasoning_type,count,em,f1,num_em,latency
+arithmetic,66,42.42,66.41,39.39,5.11
+comparison,11,100.0,100.0,100.0,3.35
+count,5,100.0,100.0,100.0,3.14
+lookup,67,79.1,93.55,22.39,12.98
+multi-span,30,63.33,70.35,43.33,2.44
+multi-step,21,90.48,96.03,76.19,5.63
